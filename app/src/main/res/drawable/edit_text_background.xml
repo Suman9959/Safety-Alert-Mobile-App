@@ -1,0 +1,19 @@
+<!-- res/drawable/edit_text_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- focused state -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#e0f7fa"/> <!-- light blue background when focused -->
+            <corners android:radius="4dp"/>
+            <stroke android:width="2dp" android:color="#0097a7"/> <!-- darker blue border when focused -->
+        </shape>
+    </item>
+    <!-- default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff"/> <!-- white background by default -->
+            <corners android:radius="4dp"/>
+            <stroke android:width="1dp" android:color="#b0bec5"/> <!-- light gray border by default -->
+        </shape>
+    </item>
+</selector>
